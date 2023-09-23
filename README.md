@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@esm/index.mjs';
+import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@v0.1.0-esm/index.mjs';
 ```
 
 #### FLOAT64_MAX_BASE2_EXPONENT
@@ -78,7 +78,7 @@ var bool = ( FLOAT64_MAX_BASE2_EXPONENT === 1023 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@esm/index.mjs';
+import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@v0.1.0-esm/index.mjs';
 
 console.log( FLOAT64_MAX_BASE2_EXPONENT );
 // => 1023
