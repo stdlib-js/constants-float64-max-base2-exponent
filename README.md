@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-max-base2-exponent/tags). For example,
+
+```javascript
 import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@v0.2.1-deno/mod.js';
 ```
 
@@ -73,7 +78,7 @@ var bool = ( FLOAT64_MAX_BASE2_EXPONENT === 1023 );
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@v0.2.1-deno/mod.js';
+import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@deno/mod.js';
 
 console.log( FLOAT64_MAX_BASE2_EXPONENT );
 // => 1023
