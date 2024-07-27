@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-max-base2-exponent/tags). For example,
+
+```javascript
 import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@v0.2.2-esm/index.mjs';
 ```
 
@@ -78,7 +83,7 @@ var bool = ( FLOAT64_MAX_BASE2_EXPONENT === 1023 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@v0.2.2-esm/index.mjs';
+import FLOAT64_MAX_BASE2_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base2-exponent@esm/index.mjs';
 
 console.log( FLOAT64_MAX_BASE2_EXPONENT );
 // => 1023
